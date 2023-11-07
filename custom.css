@@ -1,0 +1,65 @@
+/* helper to clear afterwar */
+.clear ~ * {
+  clear: both;
+}
+/* Color strong if not inverted */
+:not(.inverse) > strong {
+  color: rgb(144, 26, 30);
+}
+/* Just a right float with out clearing */
+.float-right {
+  max-width: 30%;
+  float: right;
+}
+/* Three-column layout */
+.thirds {
+  width: 30%;
+  float: left;
+}
+.thirds-r {
+  width: 30%;
+  float: right;
+}
+
+
+/* And a doublde with one */
+.double {
+  width: 65%;
+  float: left;
+}
+.double-r {
+  width: 65%;
+  float: right;
+}
+/* A wider left float */
+.wide{
+  float: left;
+  width: 75%;
+}
+.narrow{
+  float: right;
+  width: 20%;
+}
+
+/* simple large slogan with outline for visability */
+.slogan {
+  font-size: 300%;
+  line-height: 1.5em !important;
+  color: white;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+/* make text large per default */
+.remark-slide-content {
+  font-size: 24px !important;
+}
+.normal {
+  font-size: 84%;
+}
